@@ -1,0 +1,70 @@
+# DjangoWebProject
+## Car Rental Web Application
+This is a simple Car Rental Web Application built using Django. 
+The application allows users to browse available cars, reserve a car, and manage their account.
+It also demonstrates how to scrape car data from an external website and save it into the application's database.
+
+## Features
+User authentication (registration, login, logout)
+Browse and search available cars
+View car details
+Reserve a car
+User account management (profile, reservations)
+Web scraping to populate the car database
+Installation
+Prerequisites
+Python 3.10+
+pip (Python package manager)
+virtualenv (optional, but recommended)
+
+## Steps:
+1 - Clone the repository:
+    git clone https://github.com/yourusername/car-rental-webapp.git
+    cd car-rental-webapp
+
+2 - Install the required packages:
+    pip install -r requirements.txt
+    
+3- Apply the migrations to create the database schema:
+    python manage.py migrate
+
+4- Scrape car data and save it to the database:
+    python manage.py scrape_cars
+
+5- Create a superuser to access the admin site:
+   python manage.py createsuperuser  
+
+6-Run the development server : 
+    python manage.py runserver
+
+Now, you can access the application at http://127.0.0.1:8000/ and
+the admin site at http://127.0.0.1:8000/admin/.    
+   
+
+## Usage
+
+- Register a new user or log in using the superuser account created during the installation.
+- Navigate to the car search page to filter and find available cars.
+- Click on a car to view its details and reserve it if desired.
+- Access your user profile to manage your account and reservations.
+- As a superuser, use the Django admin panel to manage cars and users.
+
+## Contributing
+
+1. Fork the repository on GitHub.
+2. Create a new branch with your changes.
+3. Commit your changes and push them to your fork.
+4. Open a pull request to merge your changes into the main repository.
+
+## License
+This project is released under the Touloun/El Amri License. Contact us for details.
+
+
+
+
+
+
+
+
+
+
