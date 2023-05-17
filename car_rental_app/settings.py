@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    #required solution for the 'bootstrap3/uni_form.html does not exist'
+    'crispy_bootstrap3',
+    # we must download crispy-bootstrap3 too
     'system',
 
 ]

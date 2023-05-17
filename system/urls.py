@@ -2,6 +2,8 @@
 from django.urls import path
 from accounts.views import *
 from django.contrib import admin
+
+from system import views
 from system.views import *
 
 
